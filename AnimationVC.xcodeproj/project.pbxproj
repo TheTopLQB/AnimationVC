@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		9FF4CA7D1CA134E1005285B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4CA7C1CA134E1005285B4 /* main.m */; };
 		9FF4CA801CA134E1005285B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4CA7F1CA134E1005285B4 /* AppDelegate.m */; };
-		9FF4CA831CA134E1005285B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4CA821CA134E1005285B4 /* ViewController.m */; };
 		9FF4CA861CA134E1005285B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4CA841CA134E1005285B4 /* Main.storyboard */; };
 		9FF4CA881CA134E1005285B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4CA871CA134E1005285B4 /* Assets.xcassets */; };
 		9FF4CA8B1CA134E1005285B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4CA891CA134E1005285B4 /* LaunchScreen.storyboard */; };
 		9FF4CA961CA134E2005285B4 /* AnimationVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4CA951CA134E2005285B4 /* AnimationVCTests.m */; };
 		9FF4CAA11CA134E2005285B4 /* AnimationVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4CAA01CA134E2005285B4 /* AnimationVCUITests.m */; };
+		9FF4CAB01CA135BC005285B4 /* LQBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4CAAF1CA135BC005285B4 /* LQBRootViewController.m */; };
+		9FF4CAB41CA135E2005285B4 /* LQBPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4CAB21CA135E2005285B4 /* LQBPresentedViewController.m */; };
+		9FF4CAB51CA135E2005285B4 /* LQBPresentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4CAB31CA135E2005285B4 /* LQBPresentedViewController.xib */; };
+		9FF4CAB81CA13631005285B4 /* LQBAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4CAB71CA13631005285B4 /* LQBAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		9FF4CA7C1CA134E1005285B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9FF4CA7E1CA134E1005285B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FF4CA7F1CA134E1005285B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9FF4CA811CA134E1005285B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9FF4CA821CA134E1005285B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9FF4CA851CA134E1005285B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FF4CA871CA134E1005285B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF4CA8A1CA134E1005285B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		9FF4CA9C1CA134E2005285B4 /* AnimationVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF4CAA01CA134E2005285B4 /* AnimationVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVCUITests.m; sourceTree = "<group>"; };
 		9FF4CAA21CA134E2005285B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF4CAAE1CA135BC005285B4 /* LQBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBRootViewController.h; sourceTree = "<group>"; };
+		9FF4CAAF1CA135BC005285B4 /* LQBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBRootViewController.m; sourceTree = "<group>"; };
+		9FF4CAB11CA135E2005285B4 /* LQBPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBPresentedViewController.h; sourceTree = "<group>"; };
+		9FF4CAB21CA135E2005285B4 /* LQBPresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBPresentedViewController.m; sourceTree = "<group>"; };
+		9FF4CAB31CA135E2005285B4 /* LQBPresentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQBPresentedViewController.xib; sourceTree = "<group>"; };
+		9FF4CAB61CA13631005285B4 /* LQBAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBAnimationViewController.h; sourceTree = "<group>"; };
+		9FF4CAB71CA13631005285B4 /* LQBAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +111,13 @@
 			children = (
 				9FF4CA7E1CA134E1005285B4 /* AppDelegate.h */,
 				9FF4CA7F1CA134E1005285B4 /* AppDelegate.m */,
-				9FF4CA811CA134E1005285B4 /* ViewController.h */,
-				9FF4CA821CA134E1005285B4 /* ViewController.m */,
+				9FF4CAAE1CA135BC005285B4 /* LQBRootViewController.h */,
+				9FF4CAAF1CA135BC005285B4 /* LQBRootViewController.m */,
+				9FF4CAB11CA135E2005285B4 /* LQBPresentedViewController.h */,
+				9FF4CAB21CA135E2005285B4 /* LQBPresentedViewController.m */,
+				9FF4CAB31CA135E2005285B4 /* LQBPresentedViewController.xib */,
+				9FF4CAB61CA13631005285B4 /* LQBAnimationViewController.h */,
+				9FF4CAB71CA13631005285B4 /* LQBAnimationViewController.m */,
 				9FF4CA841CA134E1005285B4 /* Main.storyboard */,
 				9FF4CA871CA134E1005285B4 /* Assets.xcassets */,
 				9FF4CA891CA134E1005285B4 /* LaunchScreen.storyboard */,
@@ -246,6 +259,7 @@
 				9FF4CA8B1CA134E1005285B4 /* LaunchScreen.storyboard in Resources */,
 				9FF4CA881CA134E1005285B4 /* Assets.xcassets in Resources */,
 				9FF4CA861CA134E1005285B4 /* Main.storyboard in Resources */,
+				9FF4CAB51CA135E2005285B4 /* LQBPresentedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF4CA831CA134E1005285B4 /* ViewController.m in Sources */,
 				9FF4CA801CA134E1005285B4 /* AppDelegate.m in Sources */,
+				9FF4CAB01CA135BC005285B4 /* LQBRootViewController.m in Sources */,
 				9FF4CA7D1CA134E1005285B4 /* main.m in Sources */,
+				9FF4CAB81CA13631005285B4 /* LQBAnimationViewController.m in Sources */,
+				9FF4CAB41CA135E2005285B4 /* LQBPresentedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

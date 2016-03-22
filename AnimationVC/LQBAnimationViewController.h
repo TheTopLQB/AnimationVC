@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface LQBAnimationViewController : NSObject
+@interface LQBAnimationViewController : NSObject<UIViewControllerAnimatedTransitioning>
 
 @end
